@@ -1,4 +1,6 @@
 require 'sinatra'
+require 'rubygems'
+require 'rpm-contrib'
 
 get '/' do
   erb :index
