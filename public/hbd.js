@@ -21,9 +21,9 @@ $(function() {
       that.drawText = function() {
         ctx.beginPath();
         ctx.fillStyle = "#FFF";
-        ctx.font = "bold 500 Helvetica";
+        ctx.font = "bold 450 Helvetica";
         ctx.textAlign = "center";
-        ctx.fillText("HBD", ctx.canvas.width/2, ctx.canvas.height * 2/3);
+        ctx.fillText("HBD", ctx.canvas.width/2, ctx.canvas.height * 5/8);
       };
 
       that.randomColor = function() {
