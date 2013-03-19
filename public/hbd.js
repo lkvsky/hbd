@@ -13,6 +13,8 @@ $(function() {
       };
 
       that.drawSquare = function() {
+        ctx.clearRect(that.x, that.y, that.DIM, that.DIM);
+        ctx.clearRect();
         ctx.beginPath();
         ctx.fillStyle = "#000";
         ctx.rect(that.x, that.y, that.DIM, that.DIM);
@@ -35,7 +37,7 @@ $(function() {
         ctx.canvas.height = window.innerHeight;
         that.drawBackground();
         that.drawText();
-        that.drawConfetti()
+        that.drawConfetti();
       };
 
       that.drawConfetti = function() {
