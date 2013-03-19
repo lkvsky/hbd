@@ -1,6 +1,6 @@
 common: &default_settings
   license_key: '4ad1cc8015075254b3652effc79c73ad817650f2'
-  app_name: My Application
+  app_name: hbd-part
   monitor_mode: true
   developer_mode: false
   log_level: info
